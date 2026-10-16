@@ -1,0 +1,15 @@
+{
+  "name": "ren142-renewal-request-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright API automation for the REN-142 renewal-request access-control contract, generated from Test_Cases_REN.xlsx",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^26.6.5",
+    "typescript": "^5.6.0"
+  }
+}
